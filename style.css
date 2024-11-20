@@ -1,0 +1,52 @@
+.container {
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: right;
+    padding: 5px;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+button:active {
+    background-color: #bbb;
+}
+
+button:nth-last-child(3) {
+    background-color: orange;
+    color: white;
+}
+
+button:nth-last-child(2) {
+    background-color: orange;
+    color: white;
+}
+
+button:nth-last-child(1) {
+    background-color: orange;
+    color: white;
+}

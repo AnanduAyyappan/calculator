@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DOM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width" initial="1.0">
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <input type="text" placeholder="0" name="since" id="inp" disabled>
+            <div class="numbers">
+                <button class="one" onclick="displayContent(`1`)">1</button>
+                <button class="two" onclick="displayContent(`2`)">2</button>
+                <button class="three" onclick="displayContent(`3`)">3</button>
+                <button class="four" onclick="displayContent(`4`)">4</button>
+                <button class="five" onclick="displayContent(`5`)">5</button>
+                <button class="six" onclick="displayContent(`6`)">6</button>
+                <button class="seven" onclick="displayContent(`7`)">7</button>
+                <button class="eight" onclick="displayContent(`8`)">8</button>
+                <button class="nine" onclick="displayContent(`9`)">9</button>
+                <button class="zero" onclick="displayContent(`0`)">0</button>
+                <button class="plusoperator" onclick="displayContent(`+`)">+</button>
+                <button class="minusoperator" onclick="displayContent(`-`)" >-</button>
+                <button class="multioperator" onclick="displayContent(`*`)">*</button>
+                <button class="divideoperator" onclick="displayContent(`/`)">/</button>
+                <button class="clearoperator" onclick="caclClare()">C</button>
+                <button class="equaloperator">=</button>
+                <button class="modulessoperator" onclick="displayContent(`%`)">%</button>
+            </div>
+        </div>
+    </body>
+    <script src="./main.js"></script>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <input type="text" placeholder="0" name="since" id="inp" disabled>
+        <div class="numbers">
+            <button onclick="displayContent('1')">1</button>
+            <button onclick="displayContent('2')">2</button>
+            <button onclick="displayContent('3')">3</button>
+            <button onclick="displayContent('4')">4</button>
+            <button onclick="displayContent('5')">5</button>
+            <button onclick="displayContent('6')">6</button>
+            <button onclick="displayContent('7')">7</button>
+            <button onclick="displayContent('8')">8</button>
+            <button onclick="displayContent('9')">9</button>
+            <button onclick="displayContent('0')">0</button>
+            <button onclick="displayContent('+')">+</button>
+            <button onclick="displayContent('-')">-</button>
+            <button onclick="displayContent('*')">*</button>
+            <button onclick="displayContent('/')">/</button>
+            <button onclick="caclClare()">C</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="displayContent('%')">%</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
